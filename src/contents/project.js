@@ -20,7 +20,7 @@ export const data = [
             ["React", "Redus", "MUI"],
             ["NginX", "NodeJS", "Express", "MongoDB"],
         ],
-        
+        picture: picExp,
     },
     {
         date: "2019-2020",
@@ -35,7 +35,7 @@ export const data = [
         skills: [
             ["NginX", "NodeJS", "Express", "MongoDB"],
         ],
-        
+        picture: picLittleLemon,
     },
     {
         date: "2018-2019",
@@ -46,6 +46,6 @@ export const data = [
         skills: [
             ["NginX", "NodeJS", "Express", "MongoDB"],
         ],
-        
+        picture: picLittleLemon,
     },
 ]
