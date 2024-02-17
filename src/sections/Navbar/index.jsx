@@ -29,10 +29,10 @@ const Navbar = () => {
             
           >
             <div>
-              <FontAwesomeIcon className={`mr-2 text-primaryTitle ${isMouseEnter[e.title] ? "" : "hidden"}`} icon={faArrowRight} />
+              <FontAwesomeIcon className={`mr-2 text-primaryTitle new-arrow ${isMouseEnter[e.title] ? "" : "hidden"}`} icon={faArrowRight} />
             </div>
         
-            <div className={`${isMouseEnter[e.title] ? "translate-x-3" : ""} duration-500 ease-out`}>{e.title}</div>
+            <div className={`${isMouseEnter[e.title] ? "translate-x-4" : ""} duration-500 ease-out`}>{e.title}</div>
           </div>
         ))
       } 
